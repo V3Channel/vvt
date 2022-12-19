@@ -72,7 +72,6 @@ case $opt in
 7) clear ; wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu.sh && chmod +x /usr/bin/menu ;;
 8) clear ; wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu-simple/menu.sh && chmod +x /usr/bin/menu ;;
 9) clear ; wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu-green/menu.sh && chmod +x /usr/bin/menu ;;
-0) sleep 0.5 ; dark ;;
 x) exit ;;
 *) echo "Wrong Key" ; sleep 0.5 ; menu ;;
 esac
