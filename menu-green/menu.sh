@@ -69,9 +69,9 @@ case $opt in
 4) clear ; new ;;
 5) clear ; old ;;
 6) clear ; info ;;
-7) clear ; "wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu.sh && chmod +x /usr/bin/menu" ;;
-8) clear ; "wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu-simple/menu.sh && chmod +x /usr/bin/menu" ;;
-9) clear ; "wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu-green/menu.sh && chmod +x /usr/bin/menu" ;;
+7) clear ; wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu.sh && chmod +x /usr/bin/menu ;;
+8) clear ; wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu-simple/menu.sh && chmod +x /usr/bin/menu ;;
+9) clear ; wget -q -O /usr/bin/menu https://raw.githubusercontent.com/V3Channel/vvt/main/menu-green/menu.sh && chmod +x /usr/bin/menu ;;
 x) exit ;;
 *) echo "Wrong Key" ; sleep 0.5 ; menu ;;
 esac
